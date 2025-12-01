@@ -1,1 +1,16 @@
 Member 3 - Vanessa
+
+class Doctor(){
+private:
+string name;
+string specialiazation;
+string password;
+
+public:
+viewPatientInfo() 
+
+updatePatientInfo()
+
+displayInfo()
+
+};
