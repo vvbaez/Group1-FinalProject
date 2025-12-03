@@ -17,7 +17,13 @@ Doctor (string name, string specialty, int password); //doctor constructor w rea
 void viewPatient(); //doctor reads patient info
 void updatePatientRecord(); //doctor updates info
 
+virtual void displayInfo() override;
+bool operator==(const Doctor& other) const;
+friend ostream& operator<<(ostream& out, const Doctor& d);
 
+string getName() const;
+string getSpecialty() const;
 
 #endif
+
 
