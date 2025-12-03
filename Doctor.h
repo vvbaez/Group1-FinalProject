@@ -23,7 +23,10 @@ friend ostream& operator<<(ostream& out, const Doctor& d);
 
 string getName() const;
 string getSpecialty() const;
+}; 
+
 
 #endif
+
 
 
